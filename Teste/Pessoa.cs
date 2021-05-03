@@ -1,4 +1,6 @@
-﻿namespace Teste
+﻿using System;
+
+namespace Teste
 {
     public class Pessoa
     {
@@ -7,6 +9,7 @@
         public string CPF { get; set; }
         public string RG { get; set; }
         public int Idade { get; set; }
+        public DateTime HoraNascimento { get; set; }
 
 
         public string SalvarPessoa(Pessoa pessoa)
